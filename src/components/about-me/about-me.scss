@@ -1,0 +1,30 @@
+@use "../../templates/variables.scss";
+
+.about-me {
+    padding-top: 81px;
+    padding-bottom: 76px;
+
+    background-color: variables.$grey-bg;
+    .section-title {
+        margin-bottom: 29px;
+    }
+    .about-me__info {
+        margin: 0;
+        margin-bottom: 45px;
+
+        text-align: center;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (min-width: variables.$tablet-width) {
+    .about-me {
+        padding-top: 120px;
+        padding-bottom: 107px;
+        .section-title {
+            margin-bottom: 17px;
+        }
+    }
+}
