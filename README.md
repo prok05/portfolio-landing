@@ -1,6 +1,6 @@
 ## GitHub Pages
 
-https://prok05.github.io/
+https://prok05.github.io/portfolio-landing/
 
 ## Запуск проекта
 
